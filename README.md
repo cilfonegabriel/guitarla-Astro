@@ -1,54 +1,171 @@
-# Astro Starter Kit: Basics
+<div align="center">
+  
+  <h3><b>GuitarLA - Astro</b></h3>
+
+  <img src="Captura.png" alt="logo" height="auto" />
+
+  <br/>
+
+  
+
+</div>
+
+# 📗 Table of Contents <a name="table-of-contents"></a>
+
+- [📗 Table of Contents](#-table-of-contents-)
+- [📖 About the Project](#-about-the-project-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [🛠 Built With](#-built-with-)
+    - [Tech Stack](#tech-stack-)
+    - [Key Features](#key-features-)
+  - [🚀 Getting Started](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+  - [👥 Authors](#-authors-)
+  - [🤝 Contributing](#-contributing-)
+  - [📝 License](#-license-)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 About the Project <a name="about-project"></a>
+
+**Online Guitar Store** This web application is an online store for purchasing guitars. It's built using Astro on the front-end and Strapi on the back-end. The project focuses on providing a seamless user experience with dynamic routes, a shopping cart system, a blog, and efficient media handling with Cloudinary. Additionally, it utilizes a PostgreSQL database for robust product management.
+
+🎸 This app was created as part of the course "React - The Complete Guide: Hooks Context Redux MERN +15 Apps"! 
+
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo](https://guitarla-astro-8ei77eh7j-gabriels-projects-636b023b.vercel.app/)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Front-end</summary>
+  <ul>
+    <li><a href="https://docs.astro.build/en/getting-started/">Astro</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Back-end</summary>
+  <ul>
+    <li><a href="https://strapi.io/">Strapi</a></li>
+    <li>PostgreSQL</li>
+  </ul>
+</details>
+
+# 🚀 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Setup
+
+1. Clone this repository to your desired folder:
 
 ```sh
-npm create astro@latest -- --template basics
+git https://github.com/cilfonegabriel/guitarla-astro.git
+cd guitarla-remix
+
+
+### Install
+
+After cloning the repo, navigate into it and install all the required packages with the following command:
+
+```sh
+
+npm install
+
+
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Then just wait for everything to finish downloading.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+### Usage
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+Start the React app:
 
-## 🚀 Project Structure
+`npm run dev`
 
-Inside of your Astro project, you'll see the following folders and files:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+`npm run eject`
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-Any static assets, like images, can be placed in the `public/` directory.
+### Deployment
 
-## 🧞 Commands
+You can deploy this project using:
 
-All commands are run from the root of the project, from a terminal:
+`npm run build`
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## 👀 Want to learn more?
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Gabriel -Cilfone**
+- GitHub: [Gabriel Cilfone](https://github.com/cilfonegabriel)
+- LinkedIn: [Gabriel Cilfone](www.linkedin.com/in/gabriel-cilfone/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Enhance About Us pages**
+- [ ] **Implement user authentication**
+- [ ] **Optimize SEO practices**
+- [ ] **Add advanced search functionality**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/cilfonegabriel/guitarla-astro/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- Thanks to Microverse and all my teammates!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
